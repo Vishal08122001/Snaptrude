@@ -1,7 +1,26 @@
 .App {
   text-align: center;
 }
+.capture-button {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: "3rem";
+}
+.btn-wrapper {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: center;
+  align-items: center;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
